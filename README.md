@@ -18,4 +18,4 @@ Note: As this was done during an internship, I was not given permission to post 
 ## Methodology
 1. I created a relational database utilizing MySQL. This was done via the Linux command line. Data that was stored includes customer information, daily readings, dates for logs, etc. 
 2. I programmed a controller that had multiple different functionalities. It is able to connect to WiFi in order to broadcast data, maintain its own logs in cases of WiFi or power outages, and read data from water meters. This was all done in C++. 
-3. I created a webpage with 
+3. I created a website that allows for a secretary to view water usage, generate bills, and start/stop service at apartments.
