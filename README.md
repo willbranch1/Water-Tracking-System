@@ -20,6 +20,13 @@ Note: As this was done during an internship, I was not given permission to post 
     -	This was done in C++.
     -	The microcontroller was programmed to record the amount of water used for each unit. It did this by reading info from GPIO pins that were connected to the digital water meters. It then stored this data on an SD card.
     -	To broadcast the data, the controller ran up a simple webserver. When an outside program accesses the server with correct identification keys, the requested information is sent back in JSON format. This is done via GET and POST requests. 
+
+<p align="center">
+    <img alt="Admin Page" width="50%" src="https://i.imgur.com/c7zfviA.png"/>
+    <p align="center">Diagram of the controller that is connected to the water meters.</p>
+    <br>
+</p>
+
 2.	I created an administration webpage that is accessible via a secured network. Once reached, a form prompts for login information. The webpage then shows different administrative functions.
     -	This was done in HTML, PHP, and MySQL.
     -	When any link on the admin page is clicked, a PHP file is called that then retrieves data from the controller and makes MySQL calls corresponding to the link that is clicked. For example, the “Get Monthly Bill” link directs you to a page where you enter the renter information, and it makes MySQL calls to grab information to generate a bill. 
